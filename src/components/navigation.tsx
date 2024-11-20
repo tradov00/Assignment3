@@ -12,20 +12,24 @@ type Page = {
 const pages: Page[] = [
   { title: "Home", path: "/" },
   {
-    title: "Showcase",
-    path: "/showcase",
+    title: "Health goals",
+    path: "/health_goals",
   },
   {
-    title: "Blog",
-    path: "/blog",
+    title: "Community",
+    path: "/community",
   },
   {
-    title: "About us",
-    path: "/about",
+    title: "Challenges",
+    path: "/challenges",
   },
   {
-    title: "Contact us",
-    path: "/contact",
+    title: "Technology use",
+    path: "/technology_use",
+  },
+  {
+    title: "Cooking habits",
+    path: "/cooking_habits",
   },
 ];
 
