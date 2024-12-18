@@ -1,4 +1,4 @@
-"use client";
+use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -12,24 +12,20 @@ type Page = {
 const pages: Page[] = [
   { title: "Home", path: "/" },
   {
-    title: "Health goals",
-    path: "/health_goals",
+    title: "About Us",
+    path: "/about",
+  },
+  {
+    title: "Menu",
+    path: "/menu",
+  },
+  {
+    title: "Contact Us",
+    path: "/contact",
   },
   {
     title: "Community",
     path: "/community",
-  },
-  {
-    title: "Challenges",
-    path: "/challenges",
-  },
-  {
-    title: "Technology use",
-    path: "/technology_use",
-  },
-  {
-    title: "Cooking habits",
-    path: "/cooking_habits",
   },
 ];
 
